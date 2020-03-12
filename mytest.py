@@ -20,3 +20,5 @@ print('删除元素0后输出列表：',e)
 print('输出排序列表（由大到小）:',sorted(e,reverse=True))
 e.extend(s)
 print('将s列表组合到e列表后：',e)
+
+

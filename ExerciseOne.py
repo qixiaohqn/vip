@@ -9,10 +9,12 @@ print('输出10阶乘结果：',total)
 
 
 #2、求100以内能被3整除的数，并将作为列表输出
-for i in range(1,101):
-    if i%3==0 :
-        print("输出被3整除的数字：",i)
 
+list_2=[]
+for a in range(1,101):
+    if a%3==0:
+        list_2.append(a)
+print("输出被3整除的数字：",list_2)
 
 #3、列表[1,2,3,4,3,4,2,5,5,8,9,7],将此列表去重，得到一个唯一元素的列表
  #方法1
@@ -41,7 +43,6 @@ for i in range(0,x):
 
 
 #5、求10000以内的质数
-
 from math import sqrt
 def is_prime(n):
     if n == 1:
@@ -54,5 +55,5 @@ count = 0
 for i in range(1, 10000):
     if is_prime(i):
         count = count + 1
-        print('{}:{}'.format(count, i))
+        print('{}:{}'.format('输出每个质数：', i))
 
